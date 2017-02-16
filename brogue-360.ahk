@@ -112,7 +112,7 @@ buttonFunction(buttonName){
   ; if we are currently in a mode use the mode name in variable
 	if (currentmode != "") {
 
-		; account for shift mode
+	; account for shift mode
     if (shiftmode = 1){
       buttonToSend := mainData[currentmode]["shift"][buttonName][1]
     } else {
@@ -122,6 +122,9 @@ buttonFunction(buttonName){
     ; check if the button stipulates it exits the mode
     exitCheck := mainData[currentmode]["default"][buttonName][5]
     if(exitCheck = "exit"){
+      TrayTip
+      Menu Tray, NoIcon
+      Menu Tray, Icon
       currentmode =
     }
 
@@ -138,11 +141,28 @@ buttonFunction(buttonName){
   modeCheck := mainData["default"]["default"][buttonName][5]
   if(modeCheck){
     currentmode := modeCheck
+    
+    tmpArray := mainData[currentmode]["default"]
+    tmpInstructions = 
+    ;PrintArray(tmpArray)
+    For index, value in tmpArray
+    {
+      buttontmp := value[4]
+      if(index != "left_stick_up" and index != "left_stick_down" and index != "left_stick_left" and index != "left_stick_right" and index != "right_stick_right" and index != "right_stick_left" and index != "right_stick_up" and index != "right_stick_down"){
+        StringUpper, index, index
+        tmpInstructions .= index . ": " . buttontmp . ", "
+      }
+      
+    }
+    ;MsgBox, %tmpInstructions%
+
+	  TrayTip, Mode Specific Controls, %tmpInstructions%, 30, 0x10
   } 
 
   ; send the actual button press
 	Send {%buttonToSend%}
 }
+
 
 ;; This is the main function that watches for analog control changes
 ;;------------------------------------------------------------------------
