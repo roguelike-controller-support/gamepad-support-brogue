@@ -15,7 +15,7 @@ Play brogue the rougelike with a 360 Gamepad!
 
 Setup Instructions:
 ---------------------
-* Download here: https://github.com/openist/Brogue-360-Control-Autohotkey/files/781085/brogue-360.zip
+* Download here: https://github.com/openist/Brogue-360-Control-Autohotkey/files/781318/Brogue-360-Control-Autohotkey.zip
 * Run brogue-360.exe
 * Run Brogue.exe
 
