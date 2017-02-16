@@ -15,10 +15,9 @@ Play brogue the rougelike with a 360 Gamepad!
 
 This is still a WIP but should be playable. 
 
-This is my favorite roguelike and I made this so I could play extended sessions lounging on my couch on the the TV in maximum comfort. An autohotkey scruipt that remaps controls so the game is playable with a xbox controller. 
-
 Setup Instructions:
 ---------------------
+* Download here: https://github.com/openist/Brogue-360-Control-Autohotkey/files/779052/brogue-360.zip
 * Run brogue-360.exe
 * Run Brogue.exe
 
