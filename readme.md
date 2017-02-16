@@ -13,14 +13,12 @@
 
 Play brogue the rougelike with a 360 Gamepad!
 
-This is still a WIP but should be playable. 
-
 Setup Instructions:
 ---------------------
-* Download here: https://github.com/openist/Brogue-360-Control-Autohotkey/files/779052/brogue-360.zip
+* Download here: https://github.com/openist/Brogue-360-Control-Autohotkey/files/781085/brogue-360.zip
 * Run brogue-360.exe
 * Run Brogue.exe
 
-Here's the Keys:
+Dealing with enchant scrolls is a little cumbersome, you will have to first *Relabel* any items you wish to enchant to one of the *Shortcuts* (shift hat) then you can use the shortcut to select the item once you have *Applied* the enchant scroll.  When you enter the inventory the controls are re-mapped to allow you to interect with the inventory.  A popup should appear detailing the controls, and they are also represented below:
 
 ![screenshots](https://raw.githubusercontent.com/openist/Brogue-360-Control-Autohotkey/master/brogue.png)
