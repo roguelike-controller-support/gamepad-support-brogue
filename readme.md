@@ -1,8 +1,7 @@
-# Incursion-360-Control-Autohotkey
-
+# Brogue-360-Control-Autohotkey
 
     ##############################################################################
-    # Copyright 2010 Aidan McQuay
+    # Copyright 2017 Aidan McQuay
     #
     # This work is licenced under the Creative Commons BSD License License. To
     # view a copy of this licence, visit http://creativecommons.org/licenses/BSD/
@@ -10,7 +9,7 @@
     # San Francisco, California 94105, USA.
     ##############################################################################
 
-![screenshots](https://imgur.com/d1755fb6-51aa-4761-9e46-41989ea8ef3c)
+![screenshots](https://i.imgur.com/xTgRutu.jpg)
 
 Play brogue the rougelike with a 360 Gamepad!
 
